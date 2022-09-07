@@ -73,7 +73,7 @@ comm_args:
 
 tracking_args:
   # the default log path is at ~/fedml-client/fedml/logs/ and ~/fedml-server/fedml/logs/
-  enable_wandb: false
-  wandb_key: ee0b5f53d949c84cee7decbe7a629e63fb2f8408
-  wandb_project: fedml
+  enable_wandb: true
+  wandb_key: 7369021e7f3c807ba6fb63bc429982f985f885b6
+  wandb_project: FedNLP
   wandb_name: fedml_torch_fedavg_mnist_lr
